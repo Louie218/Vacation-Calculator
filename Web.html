@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Web.css">
+    <title>Document</title>
+</head>
+<body>
+   <b><h1>Vacation</h1></b>
+    <h2>Travel Cost</h2>
+
+    <p>How many people are in the family?</p>
+    <input type="number" id="peopleInFamily">
+    <p>How many days will your family be on vacation?</p>
+    <input type="number" id="howManyDays">
+    <p>What is the cost of a plane ticket, in dollars?</p>
+    <input type="number" id="costOfPlaneTicket">
+    <br> <br>
+    <button onclick="vacationFunc()"> Submit </button>
+
+    <h3>Your family will spend on travel costs for your vacation.</h3>
+    <h1 id="travelOutput"></h1>
+
+    <br><br><br>
+
+
+    <h2>Food Cost</h2>
+    <p>How many people are in the family?</p>
+    <input type="number" id="foodPeopleCount">
+    <p>How many days will your family be on vacation?</p>
+    <input type="number" id="foodDaysCount">
+    <p>What is the sales tax percentage in the vacation locale?</p>
+    <input type="number" id="foodTaxes">
+    <br>
+    <br>
+    <button onclick="foodFunction()" > Submit </button>
+    <br> <br>
+
+    <h3>Your family will spend this much on food this vacation</h3>
+    <br>
+    <h1 id="foodOutput"></h1>
+
+    
+</body>
+<script src="Web.js"></script>
+</html>
